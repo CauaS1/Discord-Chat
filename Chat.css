@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: #565a5f;
+    height: 100%;
+}
+
+p {
+    font-family: 'lemonada', sans-serif;
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Discord {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: #36393f;
+    border-radius: 10px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.Discord .Chat {
+    width: 555px;
+    height: 20px;
+    padding: 12px;
+    background-color: #40444b;
+    border-radius: 5px;
+    border: 1px solid #40444b;
+    position: absolute;
+    top: 245px;
+    left: 10px;
+    outline: none; /*Tirar aquela borda azul quando clica na barra*/
+}
+
+
+.Discord .type {
+    width: 16px;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    font-size: 12px;
+    font-family: 'lemonada';
+    color: rgb(158, 158, 158); 
+}
+
+.Discord .btn {
+    padding: 14px;
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    left: 530px;
+    top: 245px;
+    border-left: 2px solid #565a5f;
+    background-color: #40444b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    font-family: italic;
+}
+
+.msg1 {
+    width: 96.5%;
+    padding: 2px;
+    position: relative;
+    top: 160px;
+    left: 10px;
+    border-radius: 15px;
+}
+
+.msg1 .Text1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-family: 'lemonada', sans-serif;
+    font-size: 12px;
+    color: #fff8f2;
+}
+
+/*bot msg*/
+
+.msg2 {
+    width: 96.5%;
+    padding: 2px;
+    position: relative;
+    top: 50px; 
+    left: 10px;
+    border-radius: 15px;
+}
+
+.msg2 .Text2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-family: 'lemonada', sans-serif;
+    font-size: 12px;
+    color: #fff8f2;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #36393f;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0; /*footer colado la em baixo*/
+    left: 0;
+    position: absolute;
+}
+
+footer .appea {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+footer .appea .APP, .LAN {
+    font-family: monospace;
+    margin: 10px 8px;
+    border: 1px solid #565a5f;
+    width: 82px;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ccc;
+}
+
+
+
+
+
